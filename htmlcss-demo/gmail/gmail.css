@@ -1,0 +1,137 @@
+.skin{
+	/*max-width: 800px;*/
+	/*margin: 0 auto;*/
+	background-color: #58D3F7;
+	margin : 20px;
+
+
+}
+.header{
+	height: 50px;
+	border:1px solid grey;
+	background: #D8D8D8
+}
+
+.header .logo{
+	display: block;
+	/*height: 50px;*/
+	width: 200px;
+	/*float: left;*/
+	position: absolute;
+}
+
+.header .input{
+	display: block;
+	float: left;
+	margin-left: 200px;
+	padding: 10px 50px;
+	height: 20px;
+	width: 100px;
+}
+
+.header .search_button{
+	display:block;
+	float: left;
+	width: 60px;
+	height: 30px;
+	margin-top: 10px
+}
+.header .user{
+	display: block;
+	float: right;
+	height: 30px;
+}
+.left_pannel{
+	background: #D8D8D8;
+	width: 200px;
+	height: 600px;
+	/*float: left;*/
+	position: absolute;
+}
+
+.left_pannel .compose{
+	display: block;
+	width: 80px;
+	margin: 10px auto;
+}
+.left_pannel .ul{
+	display: block;
+	list-style: none;
+	width: 60px;
+	margin:0px;
+	padding:15px;
+	border-bottom: 1px solid black
+
+}
+
+.right_pannel{
+	margin-left: 200px;
+	float: left;
+}
+.right_pannel dd.time{
+	float: right;
+	width: 100px;
+	border-bottom: 1px solid #D8D8D8;
+}
+.right_pannel dt{
+	float: left;
+	width: 80px;
+	border-bottom: 1px solid #D8D8D8;
+	padding-left: 5px;
+}
+.right_pannel dd.subject{
+	width: 100;
+	float: left;
+	border-bottom: 1px solid #D8D8D8;
+
+}
+.new_message{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	border: 1px solid black;
+	height: 300px;
+	width: 300px;
+	background-color: white
+}
+
+.new_message ul {
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+.new_message li {
+	text-align: left;
+	margin:0px;
+	padding:10px;
+}
+.new_message ul li.title{
+	background-color: black;
+	color: white;
+	border-bottom: 1px solid #848484;
+
+}
+.new_message ul li.recipients{
+	color: #848484;
+	border: 1px solid #848484;
+	height: 10px;
+
+}
+.new_message ul li.subject{
+	color: #848484;
+	border-bottom: 1px solid grey;
+	height: 10px
+
+}
+
+.new_message ul li.body{
+	color: #848484;
+	height: 120px
+
+}
+.new_message ul li.submit{
+	background-color: #D8D8D8;
+}
+
+
+
